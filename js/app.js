@@ -105,21 +105,32 @@ console.log(sum);
 {
     let n = 5
     for(i=0; i < n; i++){
-        console.log("Laylo");
-        
+        console.log("Laylo");      
     }
 }
-// 9 recursive
+//  9 recursive
 {
     let a = 2
     let n = 3
-    function darajasi(){
-        return a**n
+    function darajasi(a, n) {
+        if (n === 0) 
+        return 1; 
+        return a * darajasi(a, n - 1); 
     }
-    console.log(darajasi());  
+    console.log(darajasi(a, n));
 }
-//  10 loop
+// 10 loop
 {
-    
+    let a = 2;
+    let n = 3;
+
+function darajasi(a, n) {
+    let result = 1;
+    for (let i = 0; i < n; i++) {
+        result *= a;
+    }
+    return result;
 }
 
+console.log(darajasi(a, n));
+}
