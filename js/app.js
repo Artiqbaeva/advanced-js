@@ -119,6 +119,7 @@ console.log(sum);
     }
     console.log(darajasi(a, n));
 }
+
 // 10 loop
 {
     let a = 2;
@@ -132,5 +133,5 @@ function darajasi(a, n) {
     return result;
 }
 
-console.log(darajasi(a, n));
+console.log(darajasi(a, n));9
 }

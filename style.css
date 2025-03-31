@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0  auto;
+    padding: 10px 20px;
+}
+.business-section{
+    font-family: Inter;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: 0%;
+color: #4D4D4D;
+}
+.business-section span{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0%;
+color: #4CAF4F;    
+}
+.business-section p{
+    font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #18191F;
+}
+.price h2{
+    font-family: Inter;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+letter-spacing: 0%;
+color: #4D4D4D;
+}
+.price p{
+    font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #717171;
+}
+.nav-button{
+    padding:  5px 10px;
+    border-radius: 6px;
+    background: #4CAF4F;
+    color: white;
+    font-size: 14px;
+}
+.hero{
+    margin-top: 18px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+}
+.hero span{
+   color: #353535;
+   margin-top: 16px;
+}
+.hero-btn{
+    margin-top: 32px;
+    padding: 14px 32px; 
+}
+.caring-heading h1{
+    font-family: Inter;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 40px;
+}
+.caring-heading p{
+    font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color: #717171;
+margin-bottom: 16px;
+margin-top: 8px;
+}
+
+.caring{
+    width: 317px;
+height: 176px;
+gap: 16px;
+border-radius: 8px;
+padding: 16px;
+background: #F5F7FA;
+}
+.caring-card{
+    position: relative;
+    
+}
+.caring{
+    position: absolute;
+    top: 60%;
+    left: 7%;
+    box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
+
+}
+.caring h1{
+    font-family: Inter;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.caring a{
+    font-family: Inter;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #4CAF4F;
+padding-top: 10px;
+}
+.footer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.footer h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 100px;
+    opacity: .8;
+}
