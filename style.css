@@ -96,8 +96,8 @@ margin-top: 8px;
 }
 
 .caring{
-    width: 317px;
-height: 176px;
+  max-width: 270px;
+height: 166px;
 gap: 16px;
 border-radius: 8px;
 padding: 16px;
@@ -110,7 +110,7 @@ background: #F5F7FA;
 .caring{
     position: absolute;
     top: 60%;
-    left: 7%;
+    left: 12%;
     box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2);
    
 
@@ -149,4 +149,49 @@ padding-top: 10px;
     text-align: center;
     margin-top: 100px;
     opacity: .8;
+}
+@media(max-width:1168px){
+    .business{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .business-section{
+        margin-bottom: 30px;
+    }
+    .pixel{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .images{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+    }
+    .caring-card{
+        padding: 30px;
+    }
+    .caring-lists{
+        flex-direction: column;
+        
+    }
+    .footer h1{
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 36px;
+}
+.price h2{
+    font-family: Inter;
+font-weight: 700;
+font-size: 24px;
+}
+.price p{
+    font-family: Inter;
+font-weight: 400;
+font-size: 12px;
+}
+.members{
+display: none;
+}
 }
