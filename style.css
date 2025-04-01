@@ -194,4 +194,10 @@ font-size: 12px;
 .members{
 display: none;
 }
+.helping{
+    padding: 20px;
+}
+.pixel{
+    margin: auto 0;
+}
 }
